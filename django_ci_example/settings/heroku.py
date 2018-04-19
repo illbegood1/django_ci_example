@@ -2,7 +2,7 @@ import os
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 
-from ./base import *  # noqa
+from base import *  # noqa
 
 DATABASES['default'] = dj_database_url.config()
 
