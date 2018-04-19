@@ -2,8 +2,7 @@ import os
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 
-#from .base import *  # noqa
-import base
+from django_ci_example.settings.base import *  # noqa
 
 DATABASES['default'] = dj_database_url.config()
 
